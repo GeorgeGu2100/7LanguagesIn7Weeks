@@ -1,5 +1,10 @@
 # Notes from Ruby Lesson
 
+## Good sources for Ruby
+
+* [Ruby Docs](http://ruby-doc.org/)
+
+
 ## Running Ruby from command line:
 
 2 options:
