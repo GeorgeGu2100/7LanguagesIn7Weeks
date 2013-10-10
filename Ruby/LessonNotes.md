@@ -5,7 +5,6 @@
 * [Ruby Docs](http://ruby-doc.org/)
 * Ruby docs found on your machine after install: ```C:\Ruby193\doc```. Great source of information, especially if you do not have an internet connection.
 
-
 ## Running Ruby:
 
 options:
@@ -13,6 +12,11 @@ options:
 * Write code in irb console
 * Write code file in sublime and call code file using command ```Ruby [FileName]``` for example ```Ruby 1.1_HelloWorld```
 * Install an IDE like Ruby Mine
+
+## Ruby Conventions
+
+* Classes should begin with a ***Capital*** letter and use ```CamelCase```
+
 
 ## Finding methods of a class
 
@@ -52,4 +56,6 @@ Good practice is to user ```{ }``` if on one line like:
 
 * EVERYTHING in Ruby is an Object. EVERYTHING inherits from Object
 * initilize is like a constructor and will be called when you instantiate a new object
+
+
 
