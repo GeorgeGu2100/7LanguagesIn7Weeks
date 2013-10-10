@@ -46,3 +46,10 @@ Good practice is to user ```{ }``` if on one line like:
     animals = ['lions and ', 'tigers and', 'bears', 'oh my']
     animals.each {|a| puts a}
 
+* ```yield``` is a keyword used to invoke a code block
+
+## Classes
+
+* EVERYTHING in Ruby is an Object. EVERYTHING inherits from Object
+* initilize is like a constructor and will be called when you instantiate a new object
+
