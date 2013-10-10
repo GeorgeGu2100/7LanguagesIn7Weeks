@@ -39,6 +39,9 @@ Good practice is to user ```{ }``` if on one line like:
 
 ## Loops
 
+### Things to note about loops:
+
+* In a for each loop, using ```|[variable name]|``` in the code block denotes a local variable that gets assigned a value from the list for each iteration of the loop :
 
     animals = ['lions and ', 'tigers and', 'bears', 'oh my']
     animals.each {|a| puts a}
