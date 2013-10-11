@@ -1,3 +1,1 @@
-sentence = "This sentence is number 1"
-sentence << 0.to_s
-puts sentence
+10.times { |i| puts 'This is sentence number ' + (i+1).to_s }

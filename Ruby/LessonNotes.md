@@ -58,4 +58,15 @@ Good practice is to user ```{ }``` if on one line like:
 * initilize is like a constructor and will be called when you instantiate a new object
 
 
+## Mixins
 
+* A module is a collection of functions and constants and when included in a class, become part of the class.
+* You can use members in the module that are not even defined in the module, but are defined in the class that has the includes. This is done through Duck Typing.
+* In Ruby, the module (contract) is implicit.
+* We can add new mixins and subclasses to the class, and each subclass will have the capabilities of all the mixins without having to know about the mixin’s implementation.
+* you can use a simplified single inheritance to define the essence of a class and then attach additional capabilities with modules. This is the beauty of a mixin.
+
+## Enumerables
+
+* Any type wanting to use collections or comparisons should use the ```enumerable``` and ```comparable``` mixins
+* 
