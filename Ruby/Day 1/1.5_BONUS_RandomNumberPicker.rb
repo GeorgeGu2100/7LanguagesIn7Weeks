@@ -1,17 +1,16 @@
 puts "Enter a number between 1 and 10?"
 winningNumber = rand(10)
 
-playerGuess = gets
+playerGuess = gets.to_i
 
-while Integer(playerGuess) != winningNumber
-	if Integer(playerGuess) > winningNumber
-		puts "Guess lower"
+while playerGuess != winningNumber
+	if playerGuess > winningNumber
+		puts "INCORRECT, please Guess lower"
 	else
-		puts "Guess higher"
+		puts "INCORRECT, please Guess higher"
 	end
 
-	puts "...try again please"	
-	playerGuess = gets
+	playerGuess = gets.to_i
 end
 
-puts "Correct!!"
+puts "CORRECT!!"
