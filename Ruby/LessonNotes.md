@@ -56,6 +56,15 @@ Good practice is to user ```{ }``` if on one line like:
 
 * EVERYTHING in Ruby is an Object. EVERYTHING inherits from Object
 * initilize is like a constructor and will be called when you instantiate a new object
+* you can add behaviour to an already existing class like so:
+
+    class String
+    	def joes_method
+    		puts "Joes Method: #{self}"
+    	end
+    end
+
+calling the above method like this: ```"Hello".joes_method``` will give you the output: ```Joes Method: Hello```
 
 
 ## Mixins
