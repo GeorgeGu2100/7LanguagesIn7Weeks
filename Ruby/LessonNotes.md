@@ -58,11 +58,13 @@ Good practice is to user ```{ }``` if on one line like:
 * initilize is like a constructor and will be called when you instantiate a new object
 * you can add behaviour to an already existing class like so:
 
+
     class String
     	def joes_method
     		puts "Joes Method: #{self}"
     	end
     end
+
 
 calling the above method like this: ```"Hello".joes_method``` will give you the output: ```Joes Method: Hello```
 
@@ -78,4 +80,3 @@ calling the above method like this: ```"Hello".joes_method``` will give you the 
 ## Enumerables
 
 * Any type wanting to use collections or comparisons should use the ```enumerable``` and ```comparable``` mixins
-* 
