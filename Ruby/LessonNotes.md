@@ -15,8 +15,18 @@ options:
 
 ## Ruby Conventions
 
-* Classes should begin with a ***Capital*** letter and use ```CamelCase```
+### Naming
 
+* Classes and modules should begin with a ***Capital*** letter and use ```CamelCase```
+* use snake_case for symbols, methods and variables ```some_symbol```
+
+    def some_method
+
+    end
+
+* use upper case snake case for other constants ```SOME_CONSTANT```
+* methods that return a boolean should end with a question mark
+* methods that are potentially dangerous (i.e. modify self) should end with an exclamation mark
 
 ## Finding methods of a class
 
