@@ -45,4 +45,4 @@
 
 * Lists and Maps exist in Io
 * List is an Array
-* Map is a key-value store#
+* Map is a key-value store
