@@ -16,3 +16,4 @@
 * If a word begins with a lowercase letter it is an atom (similar to a symbol in Ruby)
 * If it begins with a Capital letter or underscore then its a variable
 * Variable values can change, atoms cannot!
+
