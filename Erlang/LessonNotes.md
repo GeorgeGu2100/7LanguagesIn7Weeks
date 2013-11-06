@@ -2,6 +2,12 @@
 
 ## About the Language
 
+* Erlang is a compile language
+* Functional programming language, but not a pure functional language
+* programs built entirely out of functions, No objects!
+* those functions usually return the same values given the same inputs
+* those functions will not usually have side affects and will not modify program state
+* you can assing any variable once!!
 * Runs on its own virtual machine called ```Beam```
 * Built for concurrency
 * Built to develop near real-time fault-tolerant distributed applications
@@ -18,3 +24,8 @@
 * Hot-swap code means that you can replace pieces of you application without stopping your code.
 * a combination of hot-swap and let it crash will allow you to start pieces of failed code without stopping process!! FRIGIN' COOL!!!
 
+## Basics
+
+* Each statement ends with a ```.```
+* Lists are in square brackets
+* A string is really a list or ASCII codes
