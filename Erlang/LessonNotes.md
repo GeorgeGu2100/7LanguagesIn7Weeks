@@ -29,3 +29,5 @@
 * Each statement ends with a ```.```
 * Lists are in square brackets
 * A string is really a list or ASCII codes
+* varibles must begin with a Capital letter.
+* a symbol in erlang is called an atom.
