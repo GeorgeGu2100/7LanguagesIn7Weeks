@@ -46,4 +46,5 @@
 
 * fun is how you define an anonymous function
 * you can assign a function to a variable
-* 
+
+## Lists 
