@@ -31,3 +31,19 @@
 * A string is really a list or ASCII codes
 * varibles must begin with a Capital letter.
 * a symbol in erlang is called an atom.
+* tuples are used as you would use a map or hash
+
+## Conditions
+
+* like prolog, you can use ```_``` like a wildcard
+* ```;``` is a separator for case clauses
+* if statements use guards
+* a guard is a condition that must be satisfied for a match to succeed
+* in an if statement, one of the statements must be true because if is a functions
+* if you want an else then make the last guard true
+
+## Anonymous Functions
+
+* fun is how you define an anonymous function
+* you can assign a function to a variable
+* 
